@@ -1,0 +1,10 @@
+[Unit]
+Description=frp client
+After=network.target
+
+[Service]
+ExecStart=/home/metanoia/Application/frp_0.13/frpc -c /home/metanoia/Application/frp-0.13/frpc.ini  
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target

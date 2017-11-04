@@ -1,0 +1,10 @@
+[Unit]
+Description=brook client
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/brook -t 127.0.0.1:2333 -u 127.0.0.1:2333 -s metanoia1989:2333 -p 19960629
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
