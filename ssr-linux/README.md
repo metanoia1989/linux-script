@@ -5,3 +5,5 @@ linux下的ssr命令行客户端
 安装ssr: `ssr install`
 配置ssr: `ssr config`
 启动ssr: `ssr start`
+
+附上electron-ssr 客户端，linux下的ssr图形客户端: <https://github.com/erguotou520/electron-ssr/releases>
