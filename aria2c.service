@@ -1,0 +1,8 @@
+[Unit]
+Description=aria2c -- file download manager
+After=network.target
+[Service]
+Type=forking
+ExecStart=/usr/bin/aria2c -D --conf-path=/home/metanoia/.aria2/aria2.conf
+[Install]
+WantedBy=multi-user.target
