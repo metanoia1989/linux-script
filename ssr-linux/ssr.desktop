@@ -1,0 +1,7 @@
+[Desktop Entry]
+Exec=/home/metanoia/Application/electron-ssr-0.1.2/electron-ssr
+Icon=shadowsocks-client.png
+Type=Application
+Terminal=false
+Name=shadowsocksr
+Categories=Network;
