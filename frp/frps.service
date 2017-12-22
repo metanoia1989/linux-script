@@ -1,0 +1,10 @@
+[Unit]
+Description=frp server
+After=network.target
+
+[Service]
+ExecStart=/home/metanoia/app/frp-0.13/frps -c /home/metanoia/app/frp-0.13/frps.ini  
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
