@@ -3,7 +3,7 @@ Description=frp client
 After=network.target
 
 [Service]
-ExecStart=/home/metanoia/Application/frp_0.13/frpc -c /home/metanoia/Application/frp_0.13/frpc.ini  
+ExecStart=/usr/local/frp/frpc -c /usr/local/frp/frpc.ini  
 StandardOutput=null
 
 [Install]
